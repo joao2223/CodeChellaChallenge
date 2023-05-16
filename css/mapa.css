@@ -1,0 +1,140 @@
+.secao_de_datas {
+    justify-content: center;
+}
+
+.titulo_datas {
+    margin-top: 5rem;
+}
+
+
+.legenda {
+    display: flex;
+
+}
+
+.quadrado {
+    width: 0px;
+    height: 0px;
+    border: 10px solid;
+    border-color: #00f;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.cor1 {
+    background-color: #0E7DF1;
+}
+
+.cor2 {
+    border-color: #FE016E;
+}
+
+.cor3 {
+    border-color: #01A89E;
+}
+
+.cor4 {
+    border-color: #3F51B5;
+}
+
+.cor5 {
+    border-color: #0E7DF1;
+}
+
+.texto_legenda {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #444444;
+    margin-left: 0.5rem;
+}
+
+.titulo_detalhes {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    align-items: center;
+    text-align: center;
+    color: #444444;
+    padding-top: 1rem;
+
+}
+
+.detalhe_unico {
+    width: 20%;
+    margin: 3rem;
+}
+
+.detalhe2 {
+    margin-top: 10rem;
+}
+
+.detalhes {
+    display: flex;
+    justify-content: center;
+}
+
+.titulo_unico_detalhes {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    align-items: center;
+    text-align: center;
+    color: #444444;
+}
+
+.texto_detalhes {
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 40px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #444444;
+}
+
+@media only screen and (max-width: 600px) {
+    .logo{
+        width: 100%;
+    }
+    
+    .secao_de_datas{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .legenda_mapa{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-left: 5.5rem;
+    }
+
+    .titulo_detalhes{
+        margin-bottom: 2rem;
+        width: 100%;
+    }
+
+    .detalhes {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .detalhe_unico {
+        width: 100%;
+        margin: 0px;
+    }
+
+}

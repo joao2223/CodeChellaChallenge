@@ -1,0 +1,30 @@
+.texto_datas {
+    text-align: left;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .titulo_mais_texto {
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+
+    .texto_datas {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 2rem;
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+
+    .titulo_datas {
+        display: inline-block;
+        text-align: center;
+        height: 0;
+    }
+
+}

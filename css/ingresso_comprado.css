@@ -1,0 +1,74 @@
+.container_principal {
+    display: flex;
+    justify-content: center;
+}
+
+.container_compra {
+    width: 50%;
+}
+
+.texto_compra {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    align-items: center;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+}
+
+.centraliza_card {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10rem;
+}
+
+.ingresso_qrcode {
+
+    padding: 32px;
+    gap: 32px;
+    width: 792px;
+    height: 350px;
+    background: linear-gradient(180deg, #BFDAE6 0%, #FCF0DD 50%, #FACF9D 100%);
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.15);
+
+}
+
+.container_ingresso {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.logo_ingresso {
+    width: 12rem;
+    margin-bottom: 2rem;
+}
+
+.nome_ingresso {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #444444;
+    margin: 1rem 1rem 1rem 2rem;
+}
+
+.texto_ingresso {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    color: #444444;
+    margin: 1rem 1rem 1rem 2rem;
+}

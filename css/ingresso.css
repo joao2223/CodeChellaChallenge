@@ -1,0 +1,107 @@
+.ingresso_formulario {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.nome_campo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.campo{
+    margin-bottom: 1rem;
+}
+
+.campo_nome {
+    width: 795px;
+    height: 48px;
+    font-size: 24px;
+}
+
+.tipo_data {
+    display: flex;
+    margin-top: 1rem;
+}
+
+.campo_menor {
+    width: 350px;
+    height: 48px;
+    font-size: 24px;
+
+}
+
+.menor {
+    margin-right: 2.8rem;
+}
+
+.menor2 {
+    margin-left: 2.5rem;
+}
+
+.botao_avancar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+    gap: 16px;
+    width: 20%;
+    height: 56px;
+    background: #2E7BA2;
+    box-shadow: 4px 4px 0px #000000;
+    border-radius: 16px;
+    margin-bottom: 4rem;
+    margin-top: 2rem;
+}
+
+.botao_nome_avancar {
+    text-decoration: none;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 40px;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+.centraliza_botao {
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .titulo_informacoes {
+        width: 100%;
+    }
+
+    .ingresso_formulario {
+        flex-direction: column;
+        align-items: left;
+        flex-wrap: wrap;
+    }
+
+    .campo_nome {
+        width: 100%;
+        height: auto;
+    }
+
+    .tipo_data {
+        flex-direction: column;
+    }
+
+    .campo_menor {
+        width: 100%;
+        height: auto;
+    }
+
+}

@@ -1,0 +1,311 @@
+body {
+    background: linear-gradient(180deg, #BFDAE6 0%, #FCF0DD 50%, #FACF9D 100%);
+
+}
+
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+    background-color: #2E7BA2;
+
+}
+
+.logo {
+    width: 233.9px;
+    height: 64px;
+}
+
+.texto_cabecalho {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    white-space: nowrap;
+}
+
+.corpo_do_site {
+    background: linear-gradient(180deg, #BFDAE6 0%, #FCF0DD 50%, #FACF9D 100%);
+}
+
+.boas_vindas {
+    width: 100%;
+}
+
+.secao_de_datas {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+}
+
+.imagem_datas {
+    width: 609px;
+    height: 381px;
+}
+
+.titulo_mais_texto {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo_datas {
+    width: 392px;
+    height: 76px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #444444;
+
+}
+
+.texto_datas {
+    width: 540px;
+    height: 160px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #444444;
+}
+
+.botao_comprar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+    gap: 16px;
+    width: 256px;
+    height: 56px;
+    background: #2E7BA2;
+    box-shadow: 4px 4px 0px #444444;
+    border-radius: 16px;
+    width: 176px;
+    height: 40px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.lista_de_atracoes_sabado {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem;
+}
+
+.titulo_atracoes {
+    width: 297px;
+    height: 83px;
+    font-family: 'Calistoga';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 83px;
+    align-items: center;
+    text-align: center;
+    color: #444444;
+    padding: 2rem;
+}
+
+.dia {
+    display: flex;
+    align-items: center;
+}
+
+.linha {
+    width: 30rem;
+    height: 0px;
+    border: 1px solid #DF9010;
+
+}
+
+.sabado {
+    margin: 1rem;
+    width: 385px;
+    height: 62px;
+    font-family: 'Calistoga';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 62px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 16px;
+    gap: 10px;
+    width: 350px;
+    height: 62px;
+    background: #DF9010;
+}
+
+.system {
+    padding: 2rem;
+    width: 392px;
+    height: 56px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 56px;
+    display: flex;
+    align-items: center;
+    color: #444444;
+    padding-left: 6rem;
+}
+
+.lana {
+    padding-left: 10rem;
+}
+
+.atracoes {
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.banda {
+    color: #444444;
+    padding: 15px;
+}
+
+.linha1 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+}
+
+.linha2 {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 12px;
+}
+
+.linha3 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.atracoes_domingo {
+    width: 940px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.imagem_festival {
+    width: 100%;
+}
+
+.rodape {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.rodape_redes{
+    display: flex;
+}
+
+.logos_redes {
+   height: 1.5rem;
+}
+
+.texto_rodape {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+
+@media only screen and (max-width: 600px) {
+    body{
+        width: 100%;
+    }
+    .logo{
+        width: 10rem;
+    }
+
+    .boas_vindas{
+        width: 100%;
+    }
+
+    .secao_de_datas {
+        flex-direction: column;
+        padding: 0px;
+    }
+    .imagem_datas{
+        width: 100%;
+        height: 21rem;
+    }
+
+    .texto_datas{
+        width: 100%;
+        padding: 5rem;
+        font-size: 32px;
+    }
+
+    .lista_de_atracoes_sabado{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .linha {
+        width: 0px;
+    }
+
+    .atracoes {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .system {
+        font-weight: 900;
+        padding-left: 7rem;
+    }
+
+    .lana{
+        padding-left: 11rem;
+    }
+
+    
+
+    .atracoes_domingo{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .rodape{
+        flex-direction: column;
+        align-items: center;
+    }
+  }
